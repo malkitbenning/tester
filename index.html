@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Malkit Benning Personal Home Page </title>
+  <meta name="viewport" content="width=device-width, initial-scale=1"><link rel='stylesheet' href='https://unpkg.com/jest-lite@1.0.0-alpha.4/dist/prettify.css'><link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<!-- =================
+  WRITE YOUR HTML HERE
+
+You only need to write the HTML that goes inside the <body> tag. To add things to the <head>, click the ⚙️ 
+   ===================
+-->
+<nav id="navbar" class="nav" aria-label="Main Site Links.">
+  <ul class="nav-list">
+    <li>
+      <a href="#welcome">Welcome</a>
+    </li>
+    <li>
+      <a href="#about-me">About Me</a>
+    </li>
+    <li>
+      <a href="#tech">Tech-Geek</a>
+    </li>
+  </ul>
+</nav>
+
+<header id="welcome">
+  <h1 class="c-site-header">Personal Home Page</h1>
+  <p>for Malkit Benning </p>
+  <div class="profile-img">
+    <img class="profile-pic" src="https://raw.githubusercontent.com/malkitbenning/personal-wk3/097a780bb78e3cc451b0c61344cd575eec8a990b/images/malkit%20benning.jpg" alt="malkit benning profile">
+  </div>
+</header>
+
+<main>
+  <section id="about-me">
+    <h2>About Me</h2>
+    <p>Thanks for visiting my Personal Home page. I've lived in Glasgow and Edinburgh all my life and have a great fondness for both cities. My parents migrated to Scotland in the 60's from India, and through them I developed an appreciation and respect of other cultures.</p>
+    <p>I studied Computer Information Systems at Glasgow Caledonian University and achieved a 2:1 Honours Degree in the early 90's. I've held I.T. positions at various companies, such as IBM, The Booker Group, Standard Life and Lloyds Banking Group. The technology I've used has varied greatly over the years.</p>
+    <p>I took a voluntary extended break from IT a few years ago to concentrate on my photography, and always missed the buzz that comes with working on IT projects. </p>
+    <p>I hope that my expert knowledge of photography related software packages such as Photoshop will prove useful in any future Techonology roles. My portrait photography keeps my interpersonal skills brushed up, and I am often called upon to organised and direct individuals as well as groups of people.</p>
+    <h3>Images from recent photoshoot in Edinburgh</h3>
+    <div class="row_pink">
+      <div class="column">
+
+        <img id="showing-image" src="https://raw.githubusercontent.com/malkitbenning/personal-wk3/dc83b8e046304cf85d2591402cec5aa8f0989eef/images/dancer1.jpg" alt="dancer" width="360" height="540">
+      </div>
+    </div>
+    <div class="row_pink">
+      <div class="column">
+        <button id="previous-btn" class="general_button">Previous</button>
+        <button id="next-btn" class="general_button">Next</button>
+      </div>
+    </div>
+    
+    <h2 class="indent_header">Feedback on photos so far...</h2>
+    <div class="row">
+      <p>Latest 5 comments show here</p>
+      <ul id="comments_list"></ul>
+    </div>
+    
+    <h2 class="indent_header">Please leave feedback on images here...</h2>
+    <div class="row">
+      <textarea id="ta_comment" name="commentary" rows="4" cols="50" maxlength="50"></textarea>  
+      <button id="comment_sub" class="general_button">Submit</button>
+    </div>
+  </section>
+  <section id="tech">  
+    <h2>Tech Geek</h2>
+    <p>I've always had an interest in all things tech. My first computer was a Commodore 64, with C64 BASIC being my first language in the 80's. I still remember using Poke commands to change screen colours. It wasn't long after that before moving up to an IBM Personal Computer which accepted 5 1/4 inch floppy disks. </p>
+    <p>In my working IT life the techonogies have tended to be mainframe related, but I did start to use a bit of Java and XML to help develop migration software. 
+    </p>  
+    <p>
+      Fast forward to 2022, and the interest is technology is as strong as ever - with some novice Wordpress development and now learning HTML, CSS, and Javascript. 
+    </p> 
+    <div>
+      <p>Nowadays, I find myself spending any spare time watching Web development helper videos on YouTube. Here are a couple of recent watches...<p>
+    </div>
+    <div class="row_pink">
+      <div class="column">
+      <iframe width="360" height="215" src="https://www.youtube.com/embed/u044iM9xsWU" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      </div>
+      <div class="column">
+        <iframe width="360" height="215" src="https://www.youtube.com/embed/JJSoEo8JSnc" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      </div>  
+    </div>  
+  </section>  
+</main>
+
+<footer class="c-site-footer">
+  <p><a href="mailto:malkitbenning@gmail.com">email me</a></p>
+</footer>
+
+
+<!-- partial -->
+  <script src='https://unpkg.com/jest-lite@1.0.0-alpha.4/dist/core.js'></script>
+<script src='https://unpkg.com/jest-lite@1.0.0-alpha.4/dist/prettify.js'>
+
+</script><script  src="./script.js"></script>
+
+</body>
+</html>

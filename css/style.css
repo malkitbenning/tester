@@ -1,0 +1,128 @@
+/* =================
+  WRITE YOUR CSS HERE.
+  Check the ⌄ for help with formatting and validating your code.
+  You must write some CSS to complete this challenge.
+   ===================
+*/
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;900&display=swap');
+
+html,
+body {
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  height: 100%;
+}
+
+.nav-list{
+  /* remove bullets */
+   list-style: none;  
+}
+
+a {
+  /* remove underlines off links */
+  text-decoration: none;
+}
+
+.nav {
+  display: flex;
+  justify-content: flex-end;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 4rem;
+  z-index: 10;
+  background-color: #bbb;
+}
+
+
+.nav-list {
+  /* line up menu items horizontally */
+  display: flex;
+  margin-right: 1.5rem;
+}
+
+.nav-list a {
+  /* add spacing to menu items */
+  display: block;
+  padding: 0.5rem;
+  color: black;
+}
+
+
+header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+  background-color: #ddd;  
+}
+
+.c-site-header{
+  margin-top: 6rem;
+}
+
+/* don't edit this */
+.jest-lite-report__status--pass {
+  background: var(--color-pass);
+}
+.jest-lite-report__errors { display:none }
+
+#tech {
+  background-color: #ddd;
+}
+
+.row {
+  width: 80%;
+  margin: 0 auto;
+  display: flex;  
+}
+
+.row_pink{
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  background-color: pink;
+  
+}
+.column {
+  width: 100%;
+  padding: 25px;  
+  display: flex;
+  justify-content: center;
+}
+
+.indent_header{
+  padding-left: 10%;
+}
+
+.profile-pic{
+  width: 600px;
+  border-radius: 20%;
+}
+
+.portfolio-pic{
+  width: 25rem;
+  border-radius: 20%;
+}
+
+section{
+  padding: 5%;
+}
+
+.general_button{
+  background-color: grey;
+  color: white;
+  height: 30px;
+  width: 80px;;
+  margin: 5px;
+  border-radius: 15%;
+  border-color: white;
+  border-width: 2px;
+}
+
+.c-site-footer{
+  text-align: center;
+}
